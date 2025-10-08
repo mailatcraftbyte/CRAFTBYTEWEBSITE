@@ -1,4 +1,4 @@
-import { Zap, BookOpen, Brain, Activity, Calendar, Users, MessageCircle, Mail, ExternalLink } from 'lucide-react';
+import { Zap, BookOpen, Brain, Activity, Calendar, Users, MessageCircle, Mail, ExternalLink, Bot, MessagesSquare } from 'lucide-react';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
           </div>
           <div className="hidden md:flex gap-8">
             <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
-            <a href="#app" className="text-gray-300 hover:text-white transition-colors">Our App</a>
+            <a href="#projects" className="text-gray-300 hover:text-white transition-colors">Projects</a>
             <a href="#founder" className="text-gray-300 hover:text-white transition-colors">Founder</a>
             <a href="#join" className="text-gray-300 hover:text-white transition-colors">Join Us</a>
           </div>
@@ -87,23 +87,79 @@ function App() {
         </div>
       </section>
 
-      {/* App Section */}
-      <section id="app" className="py-20 px-6 bg-gradient-to-b from-gray-900 to-black">
+      {/* Projects Section */}
+      <section id="projects" className="py-20 px-6 bg-gradient-to-b from-gray-900 to-black">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">AI LIFE COMPANION</h2>
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-8">
-              Our flagship product designed to become your smart personal assistant, helping you manage life's complexities with ease.
+            <h2 className="text-4xl md:text-5xl font-bold mb-12">Our Projects</h2>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+              Innovative AI-powered solutions designed to enhance your digital life
             </p>
-            <a
-              href="https://mindstone-harmony-craftbyte.lovable.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-200 transition-all hover:transform hover:scale-105 shadow-lg"
-            >
-              Launch AI LIFE COMPANION
-              <ExternalLink className="w-5 h-5" />
-            </a>
+          </div>
+
+          {/* Featured Projects */}
+          <div className="grid md:grid-cols-3 gap-8 mb-20">
+            {/* AI LIFE COMPANION */}
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
+              <Brain className="w-16 h-16 text-white mb-6" />
+              <h3 className="text-2xl font-bold mb-4">AI LIFE COMPANION</h3>
+              <p className="text-gray-400 mb-6 leading-relaxed">
+                A smart personal assistant powered by GPT-3.5 Turbo. Manage your diary, health, tasks, calendar, and connect with a community — all in one place.
+              </p>
+              <a
+                href="https://ailifecompanion.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
+              >
+                Launch App
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            </div>
+
+            {/* AI Assistant */}
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
+              <Bot className="w-16 h-16 text-white mb-6" />
+              <h3 className="text-2xl font-bold mb-4">AI Assistant</h3>
+              <p className="text-gray-400 mb-6 leading-relaxed">
+                Powered by GPT-3.5 Turbo. A smart personal companion that helps you chat, plan, write, and organize your day — all in one place. Simple, fast, and always learning.
+              </p>
+              <a
+                href="https://sparky-aide.lovable.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
+              >
+                Launch App
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            </div>
+
+            {/* NEXO Chat App */}
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
+              <MessagesSquare className="w-16 h-16 text-white mb-6" />
+              <h3 className="text-2xl font-bold mb-4">NEXO</h3>
+              <p className="text-gray-400 mb-6 leading-relaxed">
+                Smart Chat App that lets you chat one-on-one instantly by searching Gmail IDs. NEXO makes private conversations simple, secure, and fast — powered by smart AI.
+              </p>
+              <a
+                href="https://talk-nexo-hub.lovable.app/chat"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
+              >
+                Launch App
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            </div>
+          </div>
+
+          {/* AI LIFE COMPANION Features */}
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold mb-4">AI LIFE COMPANION Features</h3>
+            <p className="text-gray-400 max-w-2xl mx-auto">
+              Explore the comprehensive features of our flagship product
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
