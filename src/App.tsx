@@ -1,4 +1,4 @@
-import { Zap, BookOpen, Brain, Activity, Calendar, Users, MessageCircle, Mail, ExternalLink, Bot, MessagesSquare } from 'lucide-react';
+import { Zap, Brain, Mail, ExternalLink, Bot, MessagesSquare } from 'lucide-react';
 
 function App() {
   return (
@@ -98,7 +98,7 @@ function App() {
           </div>
 
           {/* Featured Projects */}
-          <div className="grid md:grid-cols-3 gap-8 mb-20">
+          <div className="grid md:grid-cols-3 gap-8">
             {/* AI LIFE COMPANION */}
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
               <Brain className="w-16 h-16 text-white mb-6" />
@@ -151,58 +151,6 @@ function App() {
                 Launch App
                 <ExternalLink className="w-4 h-4" />
               </a>
-            </div>
-          </div>
-
-          {/* AI LIFE COMPANION Features */}
-          <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold mb-4">AI LIFE COMPANION Features</h3>
-            <p className="text-gray-400 max-w-2xl mx-auto">
-              Explore the comprehensive features of our flagship product
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Diary Feature */}
-            <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6 hover:border-gray-600 transition-all hover:transform hover:scale-105">
-              <BookOpen className="w-12 h-12 text-gray-300 mb-4" />
-              <h3 className="text-2xl font-bold mb-3">Diary</h3>
-              <p className="text-gray-400">Record your thoughts, moments, and memories securely in your personal digital journal.</p>
-            </div>
-
-            {/* AI Insights Feature */}
-            <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6 hover:border-gray-600 transition-all hover:transform hover:scale-105">
-              <Brain className="w-12 h-12 text-gray-300 mb-4" />
-              <h3 className="text-2xl font-bold mb-3">AI Insights</h3>
-              <p className="text-gray-400">Receive intelligent suggestions and insights to improve productivity, health, and lifestyle.</p>
-            </div>
-
-            {/* Medical Tracker Feature */}
-            <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6 hover:border-gray-600 transition-all hover:transform hover:scale-105">
-              <Activity className="w-12 h-12 text-gray-300 mb-4" />
-              <h3 className="text-2xl font-bold mb-3">Medical Tracker</h3>
-              <p className="text-gray-400">Keep track of health, appointments, and medical records seamlessly in one place.</p>
-            </div>
-
-            {/* Task Management Feature */}
-            <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6 hover:border-gray-600 transition-all hover:transform hover:scale-105">
-              <MessageCircle className="w-12 h-12 text-gray-300 mb-4" />
-              <h3 className="text-2xl font-bold mb-3">Task Management</h3>
-              <p className="text-gray-400">Organize tasks and to-do lists efficiently with smart prioritization and reminders.</p>
-            </div>
-
-            {/* Calendar Feature */}
-            <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6 hover:border-gray-600 transition-all hover:transform hover:scale-105">
-              <Calendar className="w-12 h-12 text-gray-300 mb-4" />
-              <h3 className="text-2xl font-bold mb-3">Calendar</h3>
-              <p className="text-gray-400">Stay ahead with reminders, events, and schedules integrated with your daily routine.</p>
-            </div>
-
-            {/* Community Feature */}
-            <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6 hover:border-gray-600 transition-all hover:transform hover:scale-105">
-              <Users className="w-12 h-12 text-gray-300 mb-4" />
-              <h3 className="text-2xl font-bold mb-3">Community</h3>
-              <p className="text-gray-400">Connect with like-minded users, share experiences, and learn together.</p>
             </div>
           </div>
         </div>
