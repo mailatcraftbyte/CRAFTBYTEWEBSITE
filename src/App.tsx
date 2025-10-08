@@ -7,7 +7,7 @@ function App() {
       <header className="fixed top-0 w-full bg-black/95 backdrop-blur-sm border-b border-gray-800 z-50">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <Zap className="w-8 h-8 text-white" fill="white" />
+            <Zap className="w-8 h-8 text-white lightning-logo" fill="white" />
             <span className="text-2xl font-bold text-white">CRAFT BYTE</span>
           </div>
           <div className="hidden md:flex gap-8">
@@ -23,7 +23,7 @@ function App() {
       <section className="pt-32 pb-20 px-6">
         <div className="container mx-auto text-center max-w-4xl">
           <div className="flex justify-center mb-6">
-            <Zap className="w-20 h-20 text-white" fill="white" />
+            <Zap className="w-20 h-20 text-white lightning-logo" fill="white" />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             CRAFT BYTE
@@ -178,7 +178,7 @@ function App() {
       <footer className="border-t border-gray-800 py-8 px-6 bg-black">
         <div className="container mx-auto text-center">
           <div className="flex justify-center items-center gap-3 mb-4">
-            <Zap className="w-6 h-6 text-white" fill="white" />
+            <Zap className="w-6 h-6 text-white lightning-logo" fill="white" />
             <span className="text-xl font-bold text-white">CRAFT BYTE</span>
           </div>
           <p className="text-gray-500">
