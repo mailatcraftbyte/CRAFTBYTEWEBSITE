@@ -1,8 +1,10 @@
 import { Zap, Brain, Mail, ExternalLink, Bot, MessagesSquare } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import Blog from './components/Blog';
 
 function App() {
   const [showIntro, setShowIntro] = useState(true);
+  const [currentPage, setCurrentPage] = useState<'home' | 'blog'>('home');
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -10,6 +12,10 @@ function App() {
     }, 3000);
     return () => clearTimeout(timer);
   }, []);
+
+  if (currentPage === 'blog') {
+    return <Blog onBack={() => setCurrentPage('home')} />;
+  }
 
   return (
     <div className="min-h-screen bg-black text-gray-100">
@@ -33,6 +39,7 @@ function App() {
             <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
             <a href="#projects" className="text-gray-300 hover:text-white transition-colors">Projects</a>
             <a href="#founder" className="text-gray-300 hover:text-white transition-colors">Founder</a>
+            <button onClick={() => setCurrentPage('blog')} className="text-gray-300 hover:text-white transition-colors">Blog</button>
             <a href="#join" className="text-gray-300 hover:text-white transition-colors">Join Us</a>
           </div>
         </nav>
