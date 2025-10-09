@@ -1,8 +1,27 @@
 import { Zap, Brain, Mail, ExternalLink, Bot, MessagesSquare } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [showIntro, setShowIntro] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowIntro(false);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="min-h-screen bg-black text-gray-100">
+      {/* Intro Screen */}
+      {showIntro && (
+        <div className="intro-screen fixed inset-0 z-[100] bg-black flex flex-col items-center justify-center">
+          <Zap className="intro-logo w-32 h-32 text-white mb-8" fill="white" />
+          <h1 className="intro-text text-6xl font-bold text-white tracking-wider">
+            CRAFT BYTE
+          </h1>
+        </div>
+      )}
       {/* Header */}
       <header className="fixed top-0 w-full bg-black/95 backdrop-blur-sm border-b border-gray-800 z-50">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
