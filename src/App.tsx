@@ -120,7 +120,7 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* AI LIFE COMPANION */}
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
-              <Brain className="w-16 h-16 text-white mb-6" />
+              <Brain className="w-16 h-16 text-white mb-6 animated-icon" />
               <h3 className="text-2xl font-bold mb-4">AI LIFE COMPANION</h3>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 A smart personal assistant powered by GPT-3.5 Turbo. Manage your diary, health, tasks, calendar, and connect with a community — all in one place.
@@ -132,13 +132,13 @@ function App() {
                 className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
               >
                 Launch App
-                <ExternalLink className="w-4 h-4" />
+                <ExternalLink className="w-4 h-4 animated-icon" />
               </a>
             </div>
 
             {/* AI Assistant */}
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
-              <Bot className="w-16 h-16 text-white mb-6" />
+              <Bot className="w-16 h-16 text-white mb-6 animated-icon" />
               <h3 className="text-2xl font-bold mb-4">AI Assistant</h3>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 Powered by GPT-3.5 Turbo. A smart personal companion that helps you chat, plan, write, and organize your day — all in one place. Simple, fast, and always learning.
@@ -150,13 +150,13 @@ function App() {
                 className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
               >
                 Launch App
-                <ExternalLink className="w-4 h-4" />
+                <ExternalLink className="w-4 h-4 animated-icon" />
               </a>
             </div>
 
             {/* NEXO Chat App */}
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
-              <MessagesSquare className="w-16 h-16 text-white mb-6" />
+              <MessagesSquare className="w-16 h-16 text-white mb-6 animated-icon" />
               <h3 className="text-2xl font-bold mb-4">NEXO</h3>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 Smart Chat App that lets you chat one-on-one instantly by searching Gmail IDs. NEXO makes private conversations simple, secure, and fast — powered by smart AI.
@@ -168,7 +168,7 @@ function App() {
                 className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
               >
                 Launch App
-                <ExternalLink className="w-4 h-4" />
+                <ExternalLink className="w-4 h-4 animated-icon" />
               </a>
             </div>
           </div>
@@ -187,7 +187,7 @@ function App() {
             href="mailto:mailatcraftbyte@gmail.com"
             className="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-200 transition-colors"
           >
-            <Mail className="w-6 h-6" />
+            <Mail className="w-6 h-6 animated-icon" />
             mailatcraftbyte@gmail.com
           </a>
         </div>
