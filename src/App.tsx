@@ -27,7 +27,7 @@ function App() {
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <Zap className="w-8 h-8 text-white lightning-logo" fill="white" />
-            <span className="text-2xl font-bold text-white">CRAFT BYTE</span>
+            <span className="text-2xl font-bold text-white lightning-text">CRAFT BYTE</span>
           </div>
           <div className="hidden md:flex gap-8">
             <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
@@ -44,7 +44,7 @@ function App() {
           <div className="flex justify-center mb-6">
             <Zap className="w-20 h-20 text-white lightning-logo" fill="white" />
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white lightning-text">
             CRAFT BYTE
           </h1>
           <p className="text-xl md:text-2xl text-gray-400 mb-8">
@@ -198,7 +198,7 @@ function App() {
         <div className="container mx-auto text-center">
           <div className="flex justify-center items-center gap-3 mb-4">
             <Zap className="w-6 h-6 text-white lightning-logo" fill="white" />
-            <span className="text-xl font-bold text-white">CRAFT BYTE</span>
+            <span className="text-xl font-bold text-white lightning-text">CRAFT BYTE</span>
           </div>
           <p className="text-gray-500">
             © 2025 CRAFT BYTE. Crafting the future, one byte at a time.
