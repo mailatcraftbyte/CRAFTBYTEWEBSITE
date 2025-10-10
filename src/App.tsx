@@ -133,7 +133,7 @@ function App() {
                 A smart personal assistant powered by GPT-3.5 Turbo. Manage your diary, health, tasks, calendar, and connect with a community — all in one place.
               </p>
               <a
-                href="https://ailifecompanion.vercel.app/"
+                href="https://mindstone-harmony-craftbyte.lovable.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
