@@ -1,4 +1,4 @@
-import { Zap, Brain, Mail, ExternalLink, Bot, MessagesSquare } from 'lucide-react';
+import { Zap, Brain, Mail, ExternalLink, Bot, MessagesSquare, Linkedin } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import Blog from './components/Blog';
 
@@ -104,10 +104,19 @@ function App() {
                 With a deep passion for technology and a vision to revolutionize the digital landscape, Varun founded
                 CRAFT BYTE to create meaningful solutions that enhance people's lives.
               </p>
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-lg text-gray-300 leading-relaxed mb-6">
                 Combining technical expertise with creative thinking, Varun leads the development of AI-powered applications
                 that push the boundaries of what's possible in personal technology.
               </p>
+              <a
+                href="https://www.linkedin.com/in/varun-suresh-a25387382"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all"
+              >
+                <Linkedin className="w-5 h-5" />
+                Connect on LinkedIn
+              </a>
             </div>
           </div>
         </div>
