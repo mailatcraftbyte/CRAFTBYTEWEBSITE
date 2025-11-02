@@ -152,9 +152,9 @@ function Blog({ onBack }: BlogProps) {
 
         <div className="mb-12 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white lightning-text">
-            AI & Machine Learning Blogs
+            Codence Insights
           </h1>
-          <p className="text-gray-400 text-lg">Exploring the future of technology, one insight at a time</p>
+          <p className="text-gray-400 text-lg">Exploring innovation, technology, and entrepreneurship</p>
         </div>
 
         {blogSections.map((section, sectionIndex) => {

@@ -24,7 +24,7 @@ function App() {
         <div className="intro-screen fixed inset-0 z-[100] bg-black flex flex-col items-center justify-center">
           <Zap className="intro-logo w-32 h-32 text-white mb-8" fill="white" />
           <h1 className="intro-text text-6xl font-bold text-white tracking-wider">
-            CRAFT BYTE
+            CODENCE
           </h1>
         </div>
       )}
@@ -33,7 +33,7 @@ function App() {
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <Zap className="w-8 h-8 text-white lightning-logo" fill="white" />
-            <span className="text-2xl font-bold text-white lightning-text">CRAFT BYTE</span>
+            <span className="text-2xl font-bold text-white lightning-text">CODENCE</span>
           </div>
           <div className="hidden md:flex gap-8">
             <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
@@ -52,13 +52,13 @@ function App() {
             <Zap className="w-20 h-20 text-white lightning-logo" fill="white" />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white lightning-text">
-            CRAFT BYTE
+            CODENCE
           </h1>
           <p className="text-xl md:text-2xl text-gray-400 mb-8">
-            Revolutionizing the digital world through AI-driven innovation
+            Empowering the Builders of Tomorrow
           </p>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-            A cutting-edge IT startup combining creativity, technology, and artificial intelligence to create products that make life smarter, easier, and more connected.
+            A next-generation innovation company that empowers young minds to create, innovate, and build real businesses through AI, automation, creativity, and collaboration.
           </p>
         </div>
       </section>
@@ -67,16 +67,41 @@ function App() {
       <section id="about" className="py-20 px-6 bg-gradient-to-b from-black to-gray-900">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">About Us</h2>
-          <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-8 md:p-12">
-            <p className="text-lg text-gray-300 leading-relaxed mb-6">
-              CRAFT BYTE is not just a tech company—it's a vision brought to life by passion, curiosity, and innovation.
-              Founded by a young prodigy who recognized the potential of technology to improve everyday life, CRAFT BYTE develops
-              apps, solutions, and tools that empower users with intelligence and efficiency.
-            </p>
-            <p className="text-lg text-gray-300 leading-relaxed">
-              Our brand identity reflects sophistication and elegance, with a black and grey theme symbolizing simplicity,
-              focus, and high-tech professionalism.
-            </p>
+          <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-8 md:p-12 space-y-6">
+            <div>
+              <h3 className="text-2xl font-bold text-white mb-3">Our Mission</h3>
+              <p className="text-lg text-gray-300 leading-relaxed">
+                To make entrepreneurship possible for everyone — even as young as 14 years old — by providing the right tools, automation, and digital support to turn ideas into reality.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-white mb-3">Our Divisions</h3>
+              <div className="space-y-4">
+                <div>
+                  <p className="text-lg font-semibold text-blue-400 mb-2">💻 Codence Tech</p>
+                  <p className="text-gray-300 leading-relaxed">
+                    Building the future through AI-powered software, automation, web, and app development. We design intelligent systems that simplify work, enhance productivity, and help businesses grow efficiently.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-lg font-semibold text-blue-400 mb-2">🎨 Codence Studio</p>
+                  <p className="text-gray-300 leading-relaxed">
+                    A creative powerhouse for design, branding, marketing, and digital identity — helping brands stand out with innovation and visual excellence.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-lg font-semibold text-blue-400 mb-2">🌱 Codence Founders</p>
+                  <p className="text-gray-300 leading-relaxed">
+                    An incubation and mentorship platform where young entrepreneurs (14+) can start, run, and scale real businesses with full support from Codence experts.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="pt-4 border-t border-gray-700">
+              <p className="text-lg font-semibold italic text-blue-400">
+                "Don't wait to grow up to start — grow up by starting."
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -91,7 +116,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-br from-gray-600 to-gray-800 rounded-2xl blur-2xl opacity-50"></div>
                 <img
                   src="/ChatGPT Image Aug 27, 2025, 12_35_25 PM.png"
-                  alt="Varun.S , Founder of CRAFT BYTE"
+                  alt="Varun S., Founder of Codence Group"
                   className="relative rounded-2xl shadow-2xl border-2 border-gray-700 max-w-md w-full"
                 />
               </div>
@@ -102,11 +127,11 @@ function App() {
               <p className="text-lg text-gray-300 leading-relaxed mb-4">
                 At just 14 years old, Varun S. is proving that age is no barrier to innovation and entrepreneurship.
                 With a deep passion for technology and a vision to revolutionize the digital landscape, Varun founded
-                CRAFT BYTE to create meaningful solutions that enhance people's lives.
+                Codence Group to create meaningful solutions that enhance people's lives.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
                 Combining technical expertise with creative thinking, Varun leads the development of AI-powered applications
-                that push the boundaries of what's possible in personal technology.
+                that push the boundaries of what's possible in personal technology and entrepreneurship.
               </p>
               <a
                 href="https://www.linkedin.com/in/varun-suresh-a25387382"
@@ -197,14 +222,14 @@ function App() {
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Join Our Team</h2>
           <p className="text-lg text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
             We are always looking for talented, motivated individuals who want to create amazing projects and grow with us.
-            If you want to be part of the CRAFT BYTE family, reach out to us.
+            If you want to be part of the Codence Group family, reach out to us.
           </p>
           <a
-            href="mailto:mailatcraftbyte@gmail.com"
+            href="mailto:hello@codencegroup.com"
             className="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-200 transition-colors"
           >
             <Mail className="w-6 h-6 animated-icon" />
-            mailatcraftbyte@gmail.com
+            hello@codencegroup.com
           </a>
         </div>
       </section>
@@ -214,10 +239,10 @@ function App() {
         <div className="container mx-auto text-center">
           <div className="flex justify-center items-center gap-3 mb-4">
             <Zap className="w-6 h-6 text-white lightning-logo" fill="white" />
-            <span className="text-xl font-bold text-white lightning-text">CRAFT BYTE</span>
+            <span className="text-xl font-bold text-white lightning-text">CODENCE</span>
           </div>
           <p className="text-gray-500">
-            © 2025 CRAFT BYTE. Crafting the future, one byte at a time.
+            © 2025 Codence Group. Empowering the builders of tomorrow.
           </p>
         </div>
       </footer>
