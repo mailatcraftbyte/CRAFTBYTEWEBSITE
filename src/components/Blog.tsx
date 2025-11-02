@@ -22,8 +22,8 @@ const blogSections: BlogSection[] = [
     title: "AI & Machine Learning",
     articles: [
       {
-        "What are the Top 5 AI Tools Changing Everyday Life in 2025?",
-        "AI tools have become part of everything—from chatbots to creativity. Here are 5 trending AI tools in 2025:",
+        question: "What are the Top 5 AI Tools Changing Everyday Life in 2025?",
+        answer: "AI tools have become part of everything—from chatbots to creativity. Here are 5 trending AI tools in 2025:",
         highlights: [
           "ChatGPT-5 – For instant AI conversations and writing.",
           "DeepSeek AI – A new open-source large model gaining attention.",
@@ -34,8 +34,8 @@ const blogSections: BlogSection[] = [
         ]
       },
       {
-        "How is Generative AI Transforming App Development?",
-        "Generative AI is speeding up app creation by generating code, designs, and content automatically. Developers now use AI copilots like GitHub Copilot and Replit Ghostwriter to:",
+        question: "How is Generative AI Transforming App Development?",
+        answer: "Generative AI is speeding up app creation by generating code, designs, and content automatically. Developers now use AI copilots like GitHub Copilot and Replit Ghostwriter to:",
         highlights: [
           "Write clean, efficient code faster.",
           "Auto-design UI mockups.",
@@ -44,8 +44,8 @@ const blogSections: BlogSection[] = [
         ]
       },
       {
-        "What is DeepSeek and Why Is Everyone Talking About It?",
-        "DeepSeek is a free, open-source AI model that rivals GPT and Gemini. It's designed for high performance with zero cost, making it popular on OpenRouter. It supports coding, chat, translation, and content creation — all without subscription limits.",
+        question: "What is DeepSeek and Why Is Everyone Talking About It?",
+        answer: "DeepSeek is a free, open-source AI model that rivals GPT and Gemini. It's designed for high performance with zero cost, making it popular on OpenRouter. It supports coding, chat, translation, and content creation — all without subscription limits.",
         highlights: ["🔓 DeepSeek is the new hero for indie AI developers."]
       }
     ]
@@ -55,8 +55,8 @@ const blogSections: BlogSection[] = [
     title: "Software & Coding",
     articles: [
       {
-        "What Are the Best Free APIs for Developers in 2025?",
-        "Free APIs every developer should try:",
+        question: "What Are the Best Free APIs for Developers in 2025?",
+        answer: "Free APIs every developer should try:",
         highlights: [
           "Brave API – For AI search and summarization.",
           "OpenRouter – Unified access to multiple AI models.",
@@ -67,8 +67,8 @@ const blogSections: BlogSection[] = [
         ]
       },
       {
-        "How to Build Your Own ChatGPT-Like Bot Without an API Key?",
-        "You can build a personal chatbot by combining web crawling + local AI models. Steps:",
+        question: "How to Build Your Own ChatGPT-Like Bot Without an API Key?",
+        answer: "You can build a personal chatbot by combining web crawling + local AI models. Steps:",
         highlights: [
           "Use Python (BeautifulSoup) to fetch answers from websites.",
           "Integrate a local LLM like DeepSeek or Ollama.",
@@ -83,8 +83,8 @@ const blogSections: BlogSection[] = [
     title: "Cybersecurity & Web",
     articles: [
       {
-       "How to Protect Your Data Online in 2025?",
-       "",
+        question: "How to Protect Your Data Online in 2025?",
+        answer: "",
         highlights: [
           "Enable 2-Factor Authentication everywhere.",
           "Use password managers like Bitwarden.",
@@ -101,8 +101,8 @@ const blogSections: BlogSection[] = [
     title: "Gadget & Tech Innovation",
     articles: [
       {
-       "What Are the Smartest AI Gadgets of 2025?",
-        "",
+        question: "What Are the Smartest AI Gadgets of 2025?",
+        answer: "",
         highlights: [
           "Meta Ray-Ban Glasses 2 – Record and translate in real time.",
           "Apple Vision Pro 2 – Blends AR with productivity tools.",
@@ -119,13 +119,13 @@ const blogSections: BlogSection[] = [
     title: "Startup & Innovation",
     articles: [
       {
-        "How Teen Entrepreneurs Are Launching AI Startups in 2025?",
-        "Teen founders are building startups faster using AI tools + no-code platforms like Bubble, Glide, and Jotform Apps. They combine creativity with free cloud services to publish apps. Examples: AI diaries, chatbot assistants, or smart school planners.",
+        question: "How Teen Entrepreneurs Are Launching AI Startups in 2025?",
+        answer: "Teen founders are building startups faster using AI tools + no-code platforms like Bubble, Glide, and Jotform Apps. They combine creativity with free cloud services to publish apps. Examples: AI diaries, chatbot assistants, or smart school planners.",
         highlights: ["✨ You don't need funding — just an idea and internet access."]
       },
       {
-        "How to Turn Your School Project into a Real App?",
-        "Steps:",
+        question: "How to Turn Your School Project into a Real App?",
+        answer: "Steps:",
         highlights: [
           "Choose a useful topic (health, education, or AI tools).",
           "Use Jotform Apps or Supabase + React for the backend.",
