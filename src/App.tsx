@@ -281,11 +281,11 @@ function App() {
             If you want to be part of the Codence Group family, reach out to us.
           </p>
           <a
-            href="mailto:hello@codencegroup.com"
+            href="mailto:contactcodence@gmail.com"
             className="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-200 transition-colors"
           >
             <Mail className="w-6 h-6 animated-icon" />
-            hello@codencegroup.com
+            contactcodence@gmail.com
           </a>
         </div>
       </section>
