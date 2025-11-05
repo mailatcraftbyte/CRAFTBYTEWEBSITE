@@ -65,40 +65,42 @@ function App() {
 
       {/* About Section */}
       <section id="about" className="py-20 px-6 bg-gradient-to-b from-black to-gray-900">
-        <div className="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">About Us</h2>
-          <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-8 md:p-12 space-y-6">
-            <div>
-              <h3 className="text-2xl font-bold text-white mb-3">Our Mission</h3>
-              <p className="text-lg text-gray-300 leading-relaxed">
+          <div className="space-y-12">
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
+              <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
                 To make entrepreneurship possible for everyone — even as young as 14 years old — by providing the right tools, automation, and digital support to turn ideas into reality.
               </p>
             </div>
+
             <div>
-              <h3 className="text-2xl font-bold text-white mb-3">Our Divisions</h3>
-              <div className="space-y-4">
-                <div>
-                  <p className="text-lg font-semibold text-blue-400 mb-2">💻 Codence Tech</p>
+              <h3 className="text-2xl font-bold text-white mb-8 text-center">Our Divisions</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
+                  <p className="text-lg font-semibold text-blue-400 mb-3">💻 Codence Tech</p>
                   <p className="text-gray-300 leading-relaxed">
                     Building the future through AI-powered software, automation, web, and app development. We design intelligent systems that simplify work, enhance productivity, and help businesses grow efficiently.
                   </p>
                 </div>
-                <div>
-                  <p className="text-lg font-semibold text-blue-400 mb-2">🎨 Codence Studio</p>
+                <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
+                  <p className="text-lg font-semibold text-blue-400 mb-3">🎨 Codence Studio</p>
                   <p className="text-gray-300 leading-relaxed">
                     A creative powerhouse for design, branding, marketing, and digital identity — helping brands stand out with innovation and visual excellence.
                   </p>
                 </div>
-                <div>
-                  <p className="text-lg font-semibold text-blue-400 mb-2">🌱 Codence Founders</p>
+                <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
+                  <p className="text-lg font-semibold text-blue-400 mb-3">🌱 Codence Founders</p>
                   <p className="text-gray-300 leading-relaxed">
                     An incubation and mentorship platform where young entrepreneurs (14+) can start, run, and scale real businesses with full support from Codence experts.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="pt-4 border-t border-gray-700">
-              <p className="text-lg font-semibold italic text-blue-400">
+
+            <div className="text-center py-8 bg-gradient-to-r from-gray-800/30 to-gray-900/30 rounded-xl border border-gray-700">
+              <p className="text-2xl font-semibold italic text-blue-300">
                 "Don't wait to grow up to start — grow up by starting."
               </p>
             </div>
@@ -158,7 +160,7 @@ function App() {
           </div>
 
           {/* Featured Projects */}
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* AI LIFE COMPANION */}
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
               <Brain className="w-16 h-16 text-white mb-6 animated-icon" />
@@ -204,6 +206,42 @@ function App() {
               </p>
               <a
                 href="https://talk-nexo-hub.lovable.app/chat"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
+              >
+                Launch App
+                <ExternalLink className="w-4 h-4 animated-icon" />
+              </a>
+            </div>
+
+            {/* School Management */}
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
+              <Brain className="w-16 h-16 text-white mb-6 animated-icon" />
+              <h3 className="text-2xl font-bold mb-4">EduSphere</h3>
+              <p className="text-gray-400 mb-6 leading-relaxed">
+                A comprehensive school management system built with Codence Tech. Streamlines student records, attendance, grades, and communication between teachers, students, and parents in one unified platform.
+              </p>
+              <a
+                href="https://edusphere-codence.base44.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
+              >
+                Launch App
+                <ExternalLink className="w-4 h-4 animated-icon" />
+              </a>
+            </div>
+
+            {/* Hostel Management */}
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
+              <Bot className="w-16 h-16 text-white mb-6 animated-icon" />
+              <h3 className="text-2xl font-bold mb-4">Hostel Management</h3>
+              <p className="text-gray-400 mb-6 leading-relaxed">
+                A smart hostel management solution that handles room allocation, guest check-ins, billing, maintenance requests, and visitor management. Designed for efficiency and seamless operations.
+              </p>
+              <a
+                href="https://hostel-codence-02.base44.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
