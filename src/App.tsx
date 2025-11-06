@@ -117,7 +117,7 @@ function App() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-gray-600 to-gray-800 rounded-2xl blur-2xl opacity-50"></div>
                 <img
-                  src="/ChatGPT Image Aug 27, 2025, 12_35_25 PM.png"
+                  src="/VARUN.png"
                   alt="Varun S., Founder of Codence Group"
                   className="relative rounded-2xl shadow-2xl border-2 border-gray-700 max-w-md w-full"
                 />
