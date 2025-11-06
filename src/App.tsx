@@ -254,12 +254,30 @@ function App() {
             {/* AI Business Buddy */}
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
               <Zap className="w-16 h-16 text-white mb-6 animated-icon" />
-              <h3 className="text-2xl font-bold mb-4">AI Business Buddy</h3>
+              <h3 className="text-2xl font-bold mb-4">FileForge</h3>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                Your AI-powered business companion that helps entrepreneurs plan, strategize, and grow. Get instant insights, business advice, and actionable recommendations tailored to your goals.
+               Convert, compress, and enhance your files with powerful AI-powered tools
               </p>
               <a
                 href="https://dream-plan-ai-07.lovable.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
+              >
+                Launch App
+                 <ExternalLink className="w-4 h-4 animated-icon" />
+              </a>
+            </div>
+
+            {/* AI Business Buddy */}
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-2xl p-8 hover:border-gray-600 transition-all hover:transform hover:scale-105 shadow-xl">
+              <Zap className="w-16 h-16 text-white mb-6 animated-icon" />
+              <h3 className="text-2xl font-bold mb-4">AI Business Buddy</h3>
+              <p className="text-gray-400 mb-6 leading-relaxed">
+               Convert, compress, and enhance your files with powerful AI-powered tools
+              </p>
+              <a
+                href="https://digital-tools-suite-p35y.bolt.host"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-all"
