@@ -79,7 +79,7 @@ function App() {
               <h3 className="text-2xl font-bold text-white mb-8 text-center">Our Divisions</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
-                  <p className="text-lg font-semibold text-blue-400 mb-3">💻 Codence Tech</p>
+            <p className="text-lg font-semibold text-blue-400 mb-3">💻 Codence Develop</p>
                   <p className="text-gray-300 leading-relaxed">
                     Building the future through AI-powered software, automation, web, and app development. We design intelligent systems that simplify work, enhance productivity, and help businesses grow efficiently.
                   </p>
